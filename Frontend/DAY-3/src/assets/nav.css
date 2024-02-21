@@ -1,0 +1,35 @@
+/* navigation.css */
+
+.navigation {
+  background-color: #ffffff;
+}
+
+.navigation .navbar {
+  padding: 15px 0;
+}
+
+.navigation .navbar a {
+  color: #000000;
+}
+
+.navigation .navbar img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navigation .navbar-toggler {
+  border: none;
+}
+
+.navigation .NavItems .nav-item {
+  margin-right: 10px;
+}
+
+.navigation .NavItems .nav-link {
+  color: #000000;
+}
+
+.navigation .NavItems .nav-link:hover {
+  color: #007bff;
+}
