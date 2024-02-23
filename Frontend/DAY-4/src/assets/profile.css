@@ -1,0 +1,84 @@
+.whole {
+  display: grid;
+  color: black;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  width: 80%;
+  border: 2px solid white;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profilepic {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.pcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  color: black;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.changedp {
+  margin-left: 0;
+  margin-top: 10px;
+}
+
+.btn {
+  width: 45%;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .whole {
+    grid-template-columns: 1fr;
+  }
+  
+  .pcontainer {
+    align-items: center; /* Centering items when in view mode on smaller screens */
+  }
+  
+  .form-group {
+    width: 100%; /* Adjusting width of form groups for better layout on smaller screens */
+  }
+  
+  .btn-group {
+    flex-direction: column; /* Stacking buttons vertically on smaller screens */
+  }
+
+}.pcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .form-group {
+    margin-bottom: 10px; /* Reduce space between input boxes */
+    color: black;
+  }
+  
+  .form-group input {
+    width: 100%; /* Take up full width */
+    padding: 8px; /* Add padding for better appearance */
+    margin-bottom: 5px; /* Reduce space between input boxes */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 4px; /* Add border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    font-size: medium; /* Set text size to medium */
+  }
+  
+  
+  
