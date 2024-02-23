@@ -1,0 +1,34 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr;
+  height: 70px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+}
+h6{
+  font-weight: bolder;
+}
+
+.navlogo {
+  width: 100%;
+  max-width: 60px; 
+}
+
+.navlinks {
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px;
+}
+
+.navele {
+  text-decoration: none;
+  color:black;
+}
