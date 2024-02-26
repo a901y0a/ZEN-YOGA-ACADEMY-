@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.footer.body{
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+
+
+.footer-logo{
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+.footer-logo .fa{
+    font-size: 30px;
+    padding: 15px 8px 10px 8px;
+}
+.footer-col-1{
+    text-align: center;
+}
+.footer-col-1 a{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.footer-col-1 a img{
+    max-width: 170px;
+    filter: brightness(0);
+    filter: invert(1);
+}
+.footer-col-1 .telegram{
+    background: #fff;
+    padding: 5px 18px;
+    margin: 15px auto;
+    margin-bottom: 20px;
+    width: fit-content;
+    border-radius: 12px;
+    text-align: center;
+}
+.footer-col-1 .telegram a{
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+}
+.footer-col-1 .telegram .fa{
+    font-size: 18px;
+    color: #000;
+    font-weight: 1000;
+}
+.telegram:hover{
+    cursor: pointer;
+}
+.footer-col-1 .footer-logo .fa:hover{
+    cursor: pointer;
+    font-size: 26px;
+    transition: 0.5s ease-out;
+    background: #ff2d3b;
+    line-height: 23px;
+    border-radius: 12px;
+}
+
+
+
+/* ----------------footer-col-2---------------- */
+.footer-col-2{
+    margin-top: 15px;
+    padding-top: 25px;
+    text-align: center;
+}
+.footer-col-2 h5{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+.footer-col-2 ul{
+    list-style: none;
+}
+.footer-col-2 ul li a{
+    font-size: 15px;
+    color: rgb(170, 165, 165);
+    transition: 0.3s;
+}
+.footer-col-2 ul li a:hover{
+    color: #fff;
+}
+
+
+
+/* ----------------footer-col-3---------------- */
+.footer-col-3{
+    margin-top: 15px;
+    padding-top: 25px;
+    text-align: center;
+}
+.footer-col-3 h5{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 12px;
+    font-size: 15px; 
+}
+.footer-col-3 ul{
+    list-style: none;
+}
+.footer-col-3 ul li a{
+    font-size: 15px;
+    color: rgb(170, 165, 165);
+    transition: 0.3s;
+}
+.footer-col-3 ul li a:hover{
+    color: #fff;
+}
+
+
+/* ----------------footer-col-4---------------- */
+.footer-col-4{
+    margin: auto;
+    margin-top: 4px;
+    min-width: 220px;
+}
+.footer-col-4 h3{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+
+.footer-col-4 .phone{
+    text-align: center;
+}
+.footer-col-4 .phone a{
+    color: #fff;
+}
+.footer-col-4 .email{
+    text-align: center;
+}
+.footer-col-4 .email a{
+    color: #fff;
+}
+.phone .fa , .email .fa, .address .fa{
+    padding: 4px;
+    transition: 0.5s;
+    margin-right: 4px;
+}
+.phone .fa:hover , .email .fa:hover, .address .fa:hover{
+    /* font-size: 18px; */
+    background-color: #ff2d3b;
+    border-radius: 4px;
+}
+.footer-col-4 .address{
+    margin-top: 10px;
+    text-align: center;
+}
+.footer-col-4 .address a{
+    color: #fff;
+}
+
+.footer-col-4 .feedback{
+    background: #fff;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    padding: 5px 18px;
+    border-radius: 12px;
+}
+.footer-col-4 .feedback a{
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+}
+.footer-col-4 .feedback .fa{
+    font-size: 20px;
+    color: #000;
+}
+.feedback:hover{
+    cursor: pointer;
+}
+
+
+
+/* ---------------hr and copyright------------------ */
+hr{
+    height: 1.5px;
+    background: #fff !important;
+    margin: 20px 10px 8px 10px;
+    border: none;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.my-footer .copyright a{
+    font-size: 12px;
+    margin: 0 10px;
+    text-align: center;
+    color: #fff;
+}
+.copyright p{
+    font-size: 12px;
+    color: #fff;
+    width: fit-content;
+    margin: 0 6px;
+}
+.copyright p .fa{
+    padding-right: 4px;
+}
+
+
+
+/*-------------media query for nav-logo----------------*/
+@media only screen and (max-width:1130px){
+    .navigation img{
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .subscribe-page .container .row .sub-content .sub-email{
+        display: block;
+    }
+    .sub-email a span{
+        border-radius: 7px;
+    }
+    .sub-email input{
+        border-radius: 7px;
+        margin-bottom: 15px;
+    }
+    .youtube-subscribe h3{
+        font-size: 35px;
+    }
+    .admission-heading::after{
+        width: 45%;
+        height: 3.5px;
+        border-radius: 4px;
+        position: absolute;
+        bottom: -1px;
+        left: 25%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .sub-email input{
+        width: 100%;
+    }
+    footer .copyright{
+        display: block;
+    }
+    footer .copyright p{
+        display: inline-block;
+    }
+    .youtube-video .container .row iframe{
+        margin: 0;
+    }
+    .youtube-video .container .row .col-sm-12{
+        width: 98%;
+        margin: 10px 15px 10px 5px;
+    }
+    .admission-heading::after{
+        width: 50%;
+        height: 3.5px;
+        border-radius: 4px;
+        position: absolute;
+        bottom: -1px;
+        left: 30%;
+    }
+}
+@media only screen and (max-width:420px){
+    .admission-heading::after{
+        width: 60%;
+        height: 3.5px;
+        border-radius: 4px;
+        position: absolute;
+        bottom: -1px;
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .contact-details .contact-content{
+        text-align: center;
+    }
+    .contact-details .contact-content .c-c-1{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .contact-details .contact-content .c-c-1 img{
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+}

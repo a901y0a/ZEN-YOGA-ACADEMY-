@@ -1,0 +1,69 @@
+.containeraaa {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+	background: url('https://images.unsplash.com/photo-1495975832350-f46e82f0ceb6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/100% 100% no-repeat;
+}
+
+
+.containeraaa .card {
+    width: calc(50% - 50px);
+    max-width: 400px; /* Limiting maximum width */
+    height: 400px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
+
+.containeraaa .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.3);
+}
+
+.containeraaa .card .img-box {
+    width: 100%;
+    height: 70%; /* Square size */
+    overflow: hidden;
+}
+
+.containeraaa .card .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.containeraaa .card .content {
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.containeraaa .card:hover .content {
+    transform: translateY(-10px);
+}
+
+.containeraaa .card .content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--clr);
+}
+
+.containeraaa .card .content p {
+    font-size: 0.9rem;
+    color: #333;
+}
+button{
+    background-color: lightblue;
+    width:60%;
+}
+
+@media (max-width: 768px) {
+    .containeraaa .card {
+        width: calc(100% - 50px);
+    }
+}
