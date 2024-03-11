@@ -1,0 +1,44 @@
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: white;
+  backdrop-filter: blur(10px);
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+h6 {
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navlogo {
+  width: 60px;
+  height: 20%;
+  margin-left: 20px;
+}
+
+.navbrand {
+  display: flex;
+  align-items: center;
+}
+.navbrand-text {
+  margin-right: 20px; 
+}
+
+.navlinks {
+  display: flex;
+  gap: 60px;
+  margin-right: 7%;
+}
+
+.navele {
+  text-decoration: none;
+  color: black;
+}

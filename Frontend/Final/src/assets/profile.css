@@ -1,0 +1,72 @@
+
+.pro{
+  background-color: white;
+  height:100vh;
+}
+.whole {
+  display: grid;
+  width:40%;
+  align-content: center;
+  margin: 0 auto; 
+  padding: 20px;
+  background: url('https://images.unsplash.com/photo-1533035353720-f1c6a75cd8ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGZlZWRiYWNrJTIwJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D') center/cover no-repeat; /* Adjusting background */
+  border-radius: 20px; 
+  margin-top: 5%;
+}
+
+.profilepic {
+  max-width: 40%;
+  height:30%;
+  height: auto; /* Ensuring the profile picture maintains its aspect ratio */
+  border-radius: 50%;
+  border: 4px solid white; 
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.pcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centering the content vertically */
+}
+
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Ensuring the buttons take up full width */
+}
+
+.changedp {
+  margin-top: 10px;
+  width: 60%; 
+  height: 10%;
+  margin-top: 10%;
+}
+
+.btn {
+  background-color: white;
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+}
+.formaa {
+  margin-bottom: 15px;
+  color: black;
+  width: 100%; /* Ensuring the form inputs take up full width */
+}
+.formaa label {
+  font-size: 20px; 
+  color: black;
+}
+
+.formaa input {
+  margin-top: -5%;
+  width: 100%;
+  padding: 2px; /* Reduce padding for smaller input boxes */
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px; /* Adjust the font size of inputs */
+}
